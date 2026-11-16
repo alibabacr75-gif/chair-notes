@@ -134,3 +134,5 @@ import os
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+ALLOWED_HOSTS = ['.onrender.com', '127.0.0.1', 'localhost']
